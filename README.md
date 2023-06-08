@@ -2,9 +2,9 @@
 
 # Huey
 
-[![Crates.io](https://img.shields.io/crates/v/huey?style=for-the-badge)](https://crates.io/crates/huey)
-[![GitHub Repo stars](https://img.shields.io/github/stars/rubenjr0/huey?style=for-the-badge)](https://github.com/rubenjr0/huey)
-[![Crates.io](https://img.shields.io/crates/l/huey?style=for-the-badge)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Crates.io](https://img.shields.io/crates/v/huey?style=flat-square)](https://crates.io/crates/huey)
+[![Crates.io](https://img.shields.io/crates/l/huey?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
+[![GitHub Repo stars](https://img.shields.io/github/stars/rubenjr0/huey?style=flat-square)](https://github.com/rubenjr0/huey)
 
 Huey is a CLI tool for colorizing images with a specified palette. Instead of using specialized tools to colorize images with a specific palette (e.g. [Catppuccin](https://github.com/catppuccin/catppuccin), [Srcery](https://srcery.sh/), etc.) you can just use `huey path-to-image path-to-palete`!
 
