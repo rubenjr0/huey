@@ -1,0 +1,27 @@
+[package]
+name = "huey"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rubén <rubenjr0@proton.me>"]
+license = "Apache-2.0"
+description = "CLI tool to colorize images with a specified palette."
+readme = "README.md"
+keywords = ["cli", "color", "image"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.3.2", features = ["derive"] }
+eyre = "0.6.8"
+image = "0.24.6"
+palette = "0.7.2"
+rayon = "1.7.0"
+
+[profile.release]
+opt-level = 3
+strip = true
+debug = false
+lto = true
+codegen-units = 16
+rpath = false
