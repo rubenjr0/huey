@@ -10,6 +10,8 @@ Huey is a CLI tool for colorizing images with a specified palette. Instead of us
 
 ## Installation
 
+> Note: Huey requires Rust Nightly
+
 You can install `huey` by using cargo:
 
 ```bash
