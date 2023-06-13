@@ -6,6 +6,7 @@ authors = ["Rubén <rubenjr0@proton.me>"]
 license = "Apache-2.0"
 description = "CLI tool to colorize images with a specified palette."
 readme = "README.md"
+repository = "https://github.com/rubenjr0/huey"
 keywords = ["cli", "color", "image"]
 
 
