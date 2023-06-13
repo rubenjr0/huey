@@ -49,7 +49,7 @@ where
         .iter()
         .map(|c| (c, c.distance_squared(color)))
         .collect();
-    palette.sort_by(|(_, d1), (_, d2)| d1.partial_cmp(d2).unwrap());
+    palette.sort_by(|(_, d1), (_, d2)| d1.partial_cmp(d2).unwrap_or(std::cmp::Ordering::Equal));
     let mut closest = palette.into_iter();
     let Some((c1, d1)) = closest.next() else {
         return None;
